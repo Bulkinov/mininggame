@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "multiplier": 2
+  },
+  {
+    "id": 2,
+    "multiplier": 3,
+    "requiredRebirths": 2
+  },
+  {
+    "id": 3,
+    "multiplier": 5,
+    "requiredRebirths": 4
+  },
+  {
+    "id": 4,
+    "multiplier": 7,
+    "requiredRebirths": 6
+  },
+  {
+    "id": 5,
+    "multiplier": 10,
+    "requiredRebirths": 8
+  },
+  {
+    "id": 6,
+    "multiplier": 13,
+    "requiredRebirths": 10
+  },
+  {
+    "id": 7,
+    "multiplier": 16,
+    "requiredRebirths": 12
+  },
+  {
+    "id": 8,
+    "multiplier": 20,
+    "requiredRebirths": 15
+  },
+  {
+    "id": 9,
+    "multiplier": 24,
+    "requiredRebirths": 18
+  },
+  {
+    "id": 10,
+    "multiplier": 100
+  },
+  {
+    "id": 11,
+    "multiplier": 28,
+    "requiredRebirths": 20
+  },
+  {
+    "id": 12,
+    "multiplier": 15
+  },
+  {
+    "id": 13,
+    "multiplier": 50
+  }
+]
