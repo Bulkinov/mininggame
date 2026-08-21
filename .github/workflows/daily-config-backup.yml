@@ -2,12 +2,16 @@ name: Daily Config Backup
 
 on:
   schedule:
-    # 23:00 UTC = 02:00 Moscow (UTC+3)
+    # 23:00 UTC = 02:00 Moscow
     - cron: "0 23 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-config-backup
+  cancel-in-progress: false
 
 jobs:
   backup:
@@ -19,7 +23,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create snapshot
+      - name: Create daily snapshot
         shell: bash
         run: |
           set -euo pipefail
@@ -27,13 +31,13 @@ jobs:
           DATE="$(TZ=Europe/Moscow date +%F)"
           DEST="backlog/${DATE}"
 
-          if [ -d "$DEST" ]; then
-            echo "Backup $DEST already exists."
+          if [ -d "${DEST}" ]; then
+            echo "Snapshot ${DEST} already exists."
             exit 0
           fi
 
-          mkdir -p "$DEST"
-          cp -a configs/. "$DEST/"
+          mkdir -p "${DEST}"
+          cp -a configs/. "${DEST}/"
 
           python3 - <<'PY'
           import json
@@ -44,18 +48,20 @@ jobs:
 
           now = datetime.now(ZoneInfo("Europe/Moscow"))
           dest = Path("backlog") / now.strftime("%Y-%m-%d")
+
           meta = {
               "sourceCommit": os.environ.get("GITHUB_SHA", ""),
               "createdAtMoscow": now.isoformat(),
               "sourcePath": "configs",
           }
+
           (dest / "_meta.json").write_text(
               json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )
           PY
 
-      - name: Commit backup
+      - name: Commit snapshot
         shell: bash
         run: |
           set -euo pipefail
