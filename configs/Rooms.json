@@ -2,37 +2,37 @@
   "rooms": [
     {
       "index": 1,
-      "blockMaxHP": 10,
-      "roomLengthCells": 16,
-      "barrierLayers": 5
-    },
-    {
-      "index": 2,
       "blockMaxHP": 50,
       "roomLengthCells": 16,
       "barrierLayers": 5
     },
     {
+      "index": 2,
+      "blockMaxHP": 600,
+      "roomLengthCells": 16,
+      "barrierLayers": 5
+    },
+    {
       "index": 3,
-      "blockMaxHP": 500,
+      "blockMaxHP": 15000,
       "roomLengthCells": 16,
       "barrierLayers": 5
     },
     {
       "index": 4,
-      "blockMaxHP": 5000,
-      "roomLengthCells": 16,
-      "barrierLayers": 5
-    },
-    {
-      "index": 5,
       "blockMaxHP": 50000,
       "roomLengthCells": 16,
       "barrierLayers": 5
     },
     {
+      "index": 5,
+      "blockMaxHP": 200000,
+      "roomLengthCells": 16,
+      "barrierLayers": 5
+    },
+    {
       "index": 6,
-      "blockMaxHP": 600000,
+      "blockMaxHP": 1000000,
       "roomLengthCells": 16,
       "barrierLayers": 5
     },

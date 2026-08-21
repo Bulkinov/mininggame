@@ -15,46 +15,46 @@
   },
   {
     "id": 4,
-    "multiplier": 7,
+    "multiplier": 10,
     "requiredRebirths": 6
   },
   {
     "id": 5,
-    "multiplier": 10,
+    "multiplier": 20,
     "requiredRebirths": 8
   },
   {
     "id": 6,
-    "multiplier": 13,
+    "multiplier": 50,
     "requiredRebirths": 10
   },
   {
     "id": 7,
-    "multiplier": 16,
+    "multiplier": 100,
     "requiredRebirths": 12
   },
   {
     "id": 8,
-    "multiplier": 20,
+    "multiplier": 200,
     "requiredRebirths": 15
   },
   {
     "id": 9,
-    "multiplier": 24,
+    "multiplier": 500,
     "requiredRebirths": 18
   },
   {
     "id": 10,
-    "multiplier": 100
+    "multiplier": 1000
   },
   {
     "id": 11,
-    "multiplier": 28,
+    "multiplier": 1000,
     "requiredRebirths": 20
   },
   {
     "id": 12,
-    "multiplier": 15
+    "multiplier": 100
   },
   {
     "id": 13,

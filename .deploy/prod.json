@@ -1,0 +1,8 @@
+{
+  "target": "prod",
+  "environment": "PROD",
+  "universeId": "10590998713",
+  "placeId": "104830450645212",
+  "requestedAt": "2026-08-21T12:52:49.761Z",
+  "source": "Google Sheets"
+}
