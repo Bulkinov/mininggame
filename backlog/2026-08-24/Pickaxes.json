@@ -1,0 +1,277 @@
+[
+  {
+    "modelName": "Plunger",
+    "currencyPrice": 0,
+    "power": 1
+  },
+  {
+    "modelName": "Crowbar",
+    "currencyPrice": 10,
+    "power": 5
+  },
+  {
+    "modelName": "MailboxPickaxe",
+    "currencyPrice": 50,
+    "power": 10
+  },
+  {
+    "modelName": "ClownHammer",
+    "currencyPrice": 450,
+    "power": 20
+  },
+  {
+    "modelName": "ToxicPixel",
+    "currencyPrice": 1000,
+    "power": 30
+  },
+  {
+    "modelName": "GoldenPickaxe",
+    "currencyPrice": 5000,
+    "power": 40
+  },
+  {
+    "modelName": "CrystalFang",
+    "currencyPrice": 50000,
+    "power": 50
+  },
+  {
+    "modelName": "Sproutspike",
+    "currencyPrice": 100000,
+    "power": 60
+  },
+  {
+    "modelName": "IcePickaxe",
+    "currencyPrice": 300000,
+    "power": 70
+  },
+  {
+    "modelName": "Venomspike",
+    "currencyPrice": 400000,
+    "power": 80
+  },
+  {
+    "modelName": "SolarSpire",
+    "currencyPrice": 600000,
+    "power": 90
+  },
+  {
+    "modelName": "SunstonePickaxe",
+    "currencyPrice": 800000,
+    "power": 100
+  },
+  {
+    "modelName": "FrostbitePickaxe",
+    "currencyPrice": 900000,
+    "power": 500
+  },
+  {
+    "modelName": "FragmentPickaxe",
+    "currencyPrice": 1000000,
+    "power": 1000
+  },
+  {
+    "modelName": "LuminaPickaxe",
+    "currencyPrice": 2000000,
+    "power": 1500
+  },
+  {
+    "modelName": "FireAxe",
+    "currencyPrice": 3000000,
+    "power": 2000
+  },
+  {
+    "modelName": "Voltspike",
+    "currencyPrice": 5000000,
+    "power": 3000
+  },
+  {
+    "modelName": "EnchanctedAxe",
+    "currencyPrice": 10000000,
+    "power": 5000
+  },
+  {
+    "modelName": "SuperDoubleAxe",
+    "currencyPrice": 30000000,
+    "power": 10000
+  },
+  {
+    "modelName": "DoubleAxe",
+    "currencyPrice": 50000000,
+    "power": 20000
+  },
+  {
+    "modelName": "Skullcrusher",
+    "currencyPrice": 100000000,
+    "power": 30000
+  },
+  {
+    "modelName": "InfernoCleaver",
+    "currencyPrice": 200000000,
+    "power": 50000
+  },
+  {
+    "modelName": "JungleStriker",
+    "currencyPrice": 500000000,
+    "power": 100000
+  },
+  {
+    "modelName": "SkybreakerPickaxe",
+    "currencyPrice": 700000000,
+    "power": 150000
+  },
+  {
+    "modelName": "TribalNightfang",
+    "currencyPrice": 1000000000,
+    "power": 200000
+  },
+  {
+    "modelName": "CandycanePickaxe",
+    "currencyPrice": 2000000000,
+    "power": 300000
+  },
+  {
+    "modelName": "PixelPickaxe",
+    "currencyPrice": 5000000000,
+    "power": 500000
+  },
+  {
+    "modelName": "GlacierCore",
+    "currencyPrice": 10000000000,
+    "power": 600000
+  },
+  {
+    "modelName": "IcewingPick",
+    "currencyPrice": 15000000000,
+    "power": 700000
+  },
+  {
+    "modelName": "CryoArcPick",
+    "currencyPrice": 20000000000,
+    "power": 800000
+  },
+  {
+    "modelName": "FrostfangShard",
+    "currencyPrice": 30000000000,
+    "power": 900000
+  },
+  {
+    "modelName": "ToxicReaper",
+    "currencyPrice": 50000000000,
+    "power": 1000000
+  },
+  {
+    "modelName": "AmethystWing",
+    "currencyPrice": 100000000000,
+    "power": 2000000
+  },
+  {
+    "modelName": "NeonPulsePickaxe",
+    "currencyPrice": 200000000000,
+    "power": 3000000
+  },
+  {
+    "modelName": "Voidpiercer",
+    "currencyPrice": 500000000000,
+    "power": 5000000
+  },
+  {
+    "modelName": "GemstoneCrusher",
+    "currencyPrice": 1000000000000,
+    "power": 10000000
+  },
+  {
+    "modelName": "RadiantReaper",
+    "currencyPrice": 2000000000000,
+    "power": 20000000
+  },
+  {
+    "modelName": "VoidCrescentPickaxe",
+    "currencyPrice": 5000000000000,
+    "power": 30000000
+  },
+  {
+    "modelName": "Skyforge",
+    "currencyPrice": 10000000000000,
+    "power": 50000000
+  },
+  {
+    "modelName": "SuperToxicReaper",
+    "currencyPrice": 20000000000000,
+    "power": 100000000
+  },
+  {
+    "modelName": "Thunderstrike",
+    "currencyPrice": 50000000000000,
+    "power": 200000000
+  },
+  {
+    "modelName": "SolarTwinblade",
+    "currencyPrice": 100000000000000,
+    "power": 300000000
+  },
+  {
+    "modelName": "AbyssalTwinEdge",
+    "currencyPrice": 200000000000000,
+    "power": 500000000
+  },
+  {
+    "modelName": "EmberhornCleaver",
+    "currencyPrice": 500000000000000,
+    "power": 1000000000
+  },
+  {
+    "modelName": "StormfuryPickaxe",
+    "currencyPrice": 1000000000000000,
+    "power": 2000000000
+  },
+  {
+    "modelName": "VoidSuperPiercer",
+    "currencyPrice": 2000000000000000,
+    "power": 3000000000
+  },
+  {
+    "modelName": "CrescentHammer",
+    "currencyPrice": 5000000000000000,
+    "power": 5000000000
+  },
+  {
+    "modelName": "TwinFireScythe",
+    "currencyPrice": 10000000000000000,
+    "power": 10000000000
+  },
+  {
+    "modelName": "MobileDrill",
+    "currencyPrice": 2000000000000000,
+    "power": 20000000000
+  },
+  {
+    "modelName": "CrimsonHook",
+    "currencyPrice": 5000000000000000,
+    "power": 30000000000
+  },
+  {
+    "modelName": "NeonCrystal",
+    "currencyPrice": 10000000000000000,
+    "power": 50000000000
+  },
+  {
+    "modelName": "FrostbiteSplitter",
+    "currencyPrice": 20000000000000000,
+    "power": 100000000000
+  },
+  {
+    "modelName": "HellFireScythe",
+    "currencyPrice": 50000000000000000,
+    "power": 200000000000
+  },
+  {
+    "modelName": "FrostbiteReaper",
+    "currencyPrice": 100000000000000000,
+    "power": 500000000000
+  },
+  {
+    "modelName": "DarkSurge",
+    "currencyPrice": 1000000000000000000,
+    "power": 1000000000000
+  }
+]
