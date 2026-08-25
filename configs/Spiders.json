@@ -1,7 +1,7 @@
 {
   "visualScale": 2.55,
   "baseSpeedStudsPerSecond": 9,
-  "speedPerRoom": 0.32,
+  "speedPerRoom": 2,
   "maximumSpeedStudsPerSecond": 20,
   "attackRadiusStuds": 4.5,
   "attackWindupSeconds": 0.38,
