@@ -1,10 +1,10 @@
 {
   "visualScale": 2.55,
   "baseSpeedStudsPerSecond": 10,
-  "speedPerRoom": 2,
+  "speedPerRoom": 10,
   "maximumSpeedStudsPerSecond": 200,
-  "attackRadiusStuds": 4.5,
-  "attackWindupSeconds": 0.38,
+  "attackRadiusStuds": 3,
+  "attackWindupSeconds": 0.5,
   "attackRecoverySeconds": 0.9,
   "stateSendIntervalSeconds": 0.1
 }
