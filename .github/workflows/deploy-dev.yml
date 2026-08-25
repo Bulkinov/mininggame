@@ -1,0 +1,32 @@
+name: Deploy Roblox Configs — DEV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".deploy/dev.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: roblox-configs-dev
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Publish configs to DEV
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Publish DEV configs
+        env:
+          ROBLOX_ENV: DEV
+          ROBLOX_UNIVERSE_ID: "10516693405"
+          ROBLOX_API_KEY: ${{ secrets.ROBLOX_API_KEY }}
+        run: python3 scripts/deploy_experience_configs.py
