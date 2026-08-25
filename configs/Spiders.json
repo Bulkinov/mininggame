@@ -3,7 +3,7 @@
   "baseSpeedStudsPerSecond": 10,
   "speedPerRoom": 10,
   "maximumSpeedStudsPerSecond": 200,
-  "attackRadiusStuds": 5,
+  "attackRadiusStuds": 10,
   "attackWindupSeconds": 0.5,
   "attackRecoverySeconds": 0.9,
   "stateSendIntervalSeconds": 0.1
