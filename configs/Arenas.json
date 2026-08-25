@@ -35,22 +35,22 @@
   },
   {
     "id": 8,
-    "multiplier": 200,
-    "requiredRebirths": 15
+    "multiplier": 500,
+    "requiredRebirths": 14
   },
   {
     "id": 9,
-    "multiplier": 500,
-    "requiredRebirths": 18
+    "multiplier": 1000,
+    "requiredRebirths": 16
   },
   {
     "id": 10,
-    "multiplier": 1000
+    "multiplier": 10000
   },
   {
     "id": 11,
-    "multiplier": 1000,
-    "requiredRebirths": 20
+    "multiplier": 10000,
+    "requiredRebirths": 18
   },
   {
     "id": 12,
@@ -58,6 +58,6 @@
   },
   {
     "id": 13,
-    "multiplier": 50
+    "multiplier": 1000
   }
 ]

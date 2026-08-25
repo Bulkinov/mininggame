@@ -29,6 +29,6 @@
       "multiplier": 1.15
     }
   ],
-  "strengthPerRebirth": 0.5,
-  "cashPerRebirth": 0.5
+  "strengthPerRebirth": 1,
+  "cashPerRebirth": 1
 }
