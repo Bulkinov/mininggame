@@ -9,7 +9,7 @@ from pathlib import Path
 CONFIG_DIR = Path("configs")
 REPOSITORY = "InExperienceConfig"
 
-CONFIG_NAMES = [
+CORE_CONFIG_NAMES = [
     "Arenas",
     "Pets",
     "Pickaxes",
@@ -85,11 +85,16 @@ def request(method, url, api_key, body=None, allow_status=(200,)):
 def load_configs():
     result = {}
 
-    for name in CONFIG_NAMES:
-        path = CONFIG_DIR / f"{name}.json"
+    if not CONFIG_DIR.exists():
+        fail(f"Missing config directory: {CONFIG_DIR}")
 
-        if not path.exists():
-            fail(f"Missing required file: {path}")
+    paths = sorted(CONFIG_DIR.glob("*.json"))
+
+    if not paths:
+        fail("configs/ contains no JSON files")
+
+    for path in paths:
+        name = path.stem
 
         try:
             with path.open("r", encoding="utf-8") as f:
@@ -100,8 +105,19 @@ def load_configs():
                 f"{path}: invalid JSON: {exc}"
             )
 
-    return result
+    missing_core = [
+        name
+        for name in CORE_CONFIG_NAMES
+        if name not in result
+    ]
 
+    if missing_core:
+        fail(
+            "Missing required core configs: "
+            + ", ".join(missing_core)
+        )
+
+    return result
 
 def assert_unique(values, label):
     seen = set()
@@ -184,7 +200,7 @@ def validate(configs):
             )
 
     print(
-        f"Validation OK: {len(CONFIG_NAMES)} configs"
+        f"Validation OK: {len(configs)} configs"
     )
 
 
@@ -279,7 +295,7 @@ def main():
 
         foreign_keys = sorted(
             set(draft_entries.keys())
-            - set(CONFIG_NAMES)
+            - set(configs.keys())
         )
 
         if foreign_keys:
@@ -293,7 +309,7 @@ def main():
     all_equal = all(
         published_entries.get(name)
         == configs[name]
-        for name in CONFIG_NAMES
+        for name in configs.keys()
     )
 
     if all_equal and not draft_entries:
@@ -378,7 +394,7 @@ def main():
 
     mismatches = [
         name
-        for name in CONFIG_NAMES
+        for name in configs.keys()
         if verify_entries.get(name)
         != configs[name]
     ]
@@ -389,7 +405,7 @@ def main():
             + ", ".join(mismatches)
         )
 
-    for name in CONFIG_NAMES:
+    for name in configs.keys():
         print(f"{name}: OK")
 
     print(
