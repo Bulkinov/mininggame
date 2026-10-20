@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Toilet",
+    "currencyPrice": 0,
+    "power": 1.5
+  },
+  {
+    "id": "Shrimp",
+    "currencyPrice": 50000,
+    "power": 2
+  },
+  {
+    "id": "Crocodile",
+    "currencyPrice": 500000,
+    "power": 3
+  },
+  {
+    "id": "Pork",
+    "currencyPrice": 1000000,
+    "power": 5
+  },
+  {
+    "id": "Shark",
+    "currencyPrice": 10000000,
+    "power": 10
+  },
+  {
+    "id": "SeagullCar",
+    "currencyPrice": 100000000,
+    "power": 15
+  },
+  {
+    "id": "Simpol",
+    "currencyPrice": 1000000000,
+    "power": 20
+  },
+  {
+    "id": "Reporter",
+    "currencyPrice": 10000000000,
+    "power": 30
+  },
+  {
+    "id": "Sushi",
+    "currencyPrice": 100000000000,
+    "power": 40
+  },
+  {
+    "id": "Elephant",
+    "currencyPrice": 1000000000000,
+    "power": 50
+  }
+]
